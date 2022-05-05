@@ -1,0 +1,87 @@
+@import 'vars';
+
+.cheesiness_wrapper {
+  padding: 50px 0;
+  border-bottom: 2px solid $primary;
+  .cheesiness_title {
+    font-size: 30px;
+    font-family: 'Square Circle', sans-serif;
+    color: $secondary;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .image_subtitle {
+    font-size: 12px;
+    font-family: 'GloriaHallelujah', cursive;
+    color: $secondary;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    text-align: center;
+  }
+  .description_wrapper {
+    margin-top: 20px;
+    .description_title {
+      font-size: 16px;
+      line-height: 12px;
+      color: $secondary;
+      font-weight: 400;
+      font-family: 'GloriaHallelujah', cursive;
+      text-align: center;
+      margin-bottom: 15px;
+    }
+  }
+  .description {
+    color: $secondary;
+    font-weight: 400;
+    font-family: 'GloriaHallelujah', cursive;
+    text-align: center;
+  }
+  @media screen and (max-width: 900px) {
+    .crew {
+      margin: 0 auto;
+      padding: 0 3rem;
+      width: 90%;
+      position: relative;
+
+      > * {
+        margin: 0 auto;
+        .MuiGrid-item {
+          padding: 0;
+          max-width: 100% !important;
+          margin: 0;
+        }
+      }
+      > .MuiGrid-item {
+        padding: 0;
+        max-width: 100% !important;
+        margin: 0;
+      }
+      &:before {
+        content: '';
+        position: absolute;
+
+        top: 10rem;
+        left: -30px;
+        width: 25px;
+        bottom: 10rem;
+        background-image: url('/assets/line-left.svg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+      &:after {
+        content: '';
+        position: absolute;
+
+        top: 10rem;
+        right: -30px;
+        width: 25px;
+        bottom: 10rem;
+        background-image: url('/assets/line-right.svg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+    }
+  }
+}

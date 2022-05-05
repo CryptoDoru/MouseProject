@@ -1,0 +1,71 @@
+@import 'vars';
+
+.dreamin_wrapper {
+  margin-top: 2.5rem;
+  padding: 2.5rem 0;
+  border-bottom: 2px solid $primary;
+  background-image: url('/assets/section-background.svg');
+
+  background-size: cover;
+  .dreamin_main_title {
+    font-size: 500%;
+    color: $secondary;
+    font-family: 'Square Circle', sans-serif;
+    text-align: center;
+  }
+  .roadMap {
+    background-image: url('/assets/roadMap.svg');
+    margin: 50px auto 0;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 60px 20% !important;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    .roadMap_step {
+      margin-top: 30px;
+      .roadMap_title {
+        font-size: 24px;
+        /*color: $secondary;*/
+        color: black;
+        font-family: 'Square Circle', sans-serif;
+        text-align: center;
+        margin-top: 15px;
+      }
+      .roadMap_subtitle {
+        color: #000000;
+        text-align: center;
+        max-width: 700px;
+        margin-top: 15px;
+
+        .highlight {
+          color: white;
+          font-family: 'Square Circle', sans-serif;
+        }
+      }
+      &:last-child {
+        margin-bottom: 3rem;
+      }
+    }
+    .subtitle_roadMap {
+      margin-top: 30px;
+      .subtitle_content {
+        font-size: 24px;
+        color: #000000;
+        font-family: 'Square Circle', sans-serif;
+        text-align: center;
+        max-width: 450px;
+        margin-bottom: 3rem;
+      }
+    }
+    .intro-text {
+      font-size: 0.9rem;
+      line-height: 1;
+
+    }
+  }
+}

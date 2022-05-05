@@ -1,0 +1,135 @@
+@font-face {
+  font-family: 'aAttackGraffiti';
+  src: url('/aAttackGraffiti');
+}
+@font-face {
+  font-family: 'Boris Regular';
+  src: url('/fonts/Boris Regular.ttf');
+}
+@font-face {
+  font-family: 'GloriaHallelujah';
+  src: url('/fonts/GloriaHallelujah-Regular.ttf');
+}
+@font-face {
+  font-family: 'Square Circle';
+  src: url('/fonts/SquareCircle-lxvZ.ttf');
+}
+@import 'vars';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* font-family: "Square Circle" ; */
+  /* font-family: "Boris Regular"; */
+  // font-family: "GloriaHallelujah", cursive;
+  background: #000000;
+  color: $primary;
+  font-family: 'GloriaHallelujah', cursive;
+
+  @media screen and (max-width: 767px) {
+    font-size: 10px;
+  }
+}
+
+/* link reset */
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer !important;
+
+  button {
+    cursor: pointer !important;
+  }
+}
+
+.hidden-mobile {
+  @media screen and (max-width: 900px) {
+    display: none;
+  }
+}
+.custom-button {
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+  color: $primary;
+  font-family: 'Square Circle', sans-serif;
+  text-align: center;
+  border-radius: 15px;
+  background: transparent;
+  border: 0;
+  outline: 0;
+  position: relative;
+  text-transform: uppercase;
+  width: 240px;
+
+  .custom-button-text {
+    padding: 1.6rem 0;
+    z-index: 1;
+    transition: all 0.25s ease-in-out;
+  }
+  svg {
+    position: absolute;
+    fill: none;
+    transition: all 0.3s ease-in-out;
+  }
+
+  &:hover {
+    .custom-button-text {
+      color: #000000;
+    }
+
+    svg {
+      fill: $primary;
+    }
+  }
+}
+
+.image_section-mobile {
+  display: none;
+  @media screen and (max-width: 1023px) {
+    display: block;
+    width: 97vw;
+    margin: 0 1vw;
+  }
+}
+.image_section {
+  position: relative;
+  width: 97vw;
+  min-height: 300px;
+  max-height: 600px;
+  margin: 0 1vw;
+  padding: 2.5rem 0;
+  overflow: hidden;
+
+  @media screen and (max-width: 1023px) {
+    display: none;
+  }
+  .top_bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 115px;
+    background-image: url('/assets/line1.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .bottom_bar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 98vw;
+    height: 115px;
+    background-image: url('/assets/line2.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}

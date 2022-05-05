@@ -1,0 +1,68 @@
+@import 'vars';
+
+.ComingYain_wrapper {
+  padding: 50px 0 0 0;
+  .conmingYain_content {
+    .conmingYain_title {
+      font-size: 2.5rem;
+      color: #e50695;
+      font-family: 'Square Circle', sans-serif;
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+    .conmingYain_time_wrapper {
+      padding: 30px 0;
+      .conmingYain_time_box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .conmingYain_title {
+          font-size: 27px;
+          color: $primary;
+          font-family: 'Square Circle', sans-serif;
+          text-align: center;
+          margin-bottom: 15px;
+        }
+        .conmingYain_time_image {
+          // padding: 30px 0;
+        }
+        .conmingYain_subtitle {
+          margin-top: 15px;
+          font-size: 18px;
+          color: #f478c4;
+          font-weight: 400;
+          font-family: 'GloriaHallelujah', cursive;
+          text-align: center;
+        }
+      }
+    }
+    .description_part {
+      background-image: url('/assets/time_description.svg');
+      width: 100% !important;
+      height: 100%;
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+      padding: 100px 20px;
+      display: flex;
+      justify-content: center;
+
+      .description_title {
+        font-size: 3rem;
+        line-height: 30px;
+        color: #000000;
+
+        text-align: center;
+      }
+    }
+    .button_part {
+      margin: 30px 0;
+      padding: 30px 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,11 @@
+<svg version="1.2" baseProfile="tiny-ps"
+	xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1208 4" width="1208" height="4">
+	<title>Layer 1</title>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: none;stroke: #FFC629;stroke-width: 3 }
+	</style>
+	<g id="Layer 1">
+		<path id="&lt;Path&gt;" class="shp0" d="M1.04 2.53L1206.95 2.53" />
+	</g>
+</svg>

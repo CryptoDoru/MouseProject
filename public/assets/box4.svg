@@ -1,0 +1,22 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 78 94" width="78" height="94">
+	<title>Layer 1</title>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #ffb237 } 
+		.shp1 { fill: #ffc550 } 
+		.shp2 { fill: #fddf91 } 
+	</style>
+	<g id="Layer 1">
+		<g id="&lt;Group&gt;">
+			<g id="&lt;Group&gt;">
+				<path id="&lt;Path&gt;" class="shp0" d="M16.51 28.12L16.51 94.2C16.46 94.23 16.42 94.25 16.37 94.28L2.01 48.89C0.92 20.54 0.54 4.96 0.88 2.13C16.87 16.31 22.08 24.98 16.51 28.12Z" />
+			</g>
+			<g id="&lt;Group&gt;">
+				<path id="&lt;Path&gt;" class="shp1" d="M76.61 60.72C74.54 60.93 44.7 78.19 16.51 94.2L16.51 28.12C22.75 29.19 27.35 29.47 29.09 28.36C40.62 21.02 54.23 18.41 67.34 14.64C73.66 12.82 70.7 10.41 76.61 14.03C76.66 29.21 76.61 46.99 76.61 60.72Z" />
+			</g>
+			<g id="&lt;Group&gt;">
+				<path id="&lt;Compound Path&gt;" fill-rule="evenodd" class="shp2" d="M76.61 14.03L37.73 38.9L16.51 51.9L0.88 2.13C1.18 2.14 51.35 -8 76.61 14.03ZM52.15 27.64L28.61 38.97L28.61 38.97L52.15 27.64Z" />
+			</g>
+		</g>
+	</g>
+</svg>
