@@ -22,7 +22,7 @@ const ComingYain = () => {
                 color="primary"
                 className="conmingYain_title"
               >
-                COMING AT YA SOON
+                WELCOME TO THE TRAP HOUSE
               </Typography>
             </Grid>
             {/* <Grid
