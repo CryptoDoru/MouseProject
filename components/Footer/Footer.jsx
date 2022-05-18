@@ -28,7 +28,12 @@ const Footer = () => {
           <a href="https://discord.com/invite/jxrEqNQ3uc" target="_blank"  alt="discord" rel="noreferrer">
             <div className="footer_buttom_wrapper">
 
-              <CustomButton btntext="Join Our Discord" />
+              <Image
+                src="/assets/discode2.svg"
+                alt="Picture of the author"
+                width={100}
+                height={100}
+                />
 
 
             </div>
