@@ -1,7 +1,6 @@
 const ButtonSvg = () => (
   <svg version="1.2"
   baseProfile="tiny-ps"
-  xmlns:xlink="http://www.w3.org/1999/xlink" 
   viewBox="0 0 752 179"
   xmlns="http://www.w3.org/2000/svg">
     <title>Test4</title>
