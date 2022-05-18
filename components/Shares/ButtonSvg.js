@@ -3,8 +3,8 @@ const ButtonSvg = () => (
       version="1.2"
       baseProfile="tiny-ps"
       xmlns="http://www.w3.org/2000/svg"
-      width="240"
-      height="70"
+      width="752"
+      height="179"
   >
       <style></style>
       <g id="Layer 1">
