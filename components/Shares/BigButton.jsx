@@ -4,7 +4,7 @@ const BigCustomButton = ({ btntext }) => {
   return (
 
     <button className="big-custom-button">
-      <ButtonSvg />
+      <BigButtonSvg />
       <span className="big-custom-button-text">
         {btntext || 'VISIT'}</span>
     </button>

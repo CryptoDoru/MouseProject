@@ -179,7 +179,7 @@ const ComingYain = () => {
               color="primary"
               className="description_title"
             >
-              Join early and start hyping!
+              Join Our Discord!
 
             </Typography>
             </a>
