@@ -35,7 +35,7 @@ const Footer = () => {
                 height={100}
               />
 
-            //  <CustomButton btntext="JOIN" />
+                  
             </div>
           </a>
         </div>
