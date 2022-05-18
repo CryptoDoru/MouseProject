@@ -185,12 +185,7 @@ const ComingYain = () => {
           {/* button here */}
           <div className="button_part">
             <a href="https://discord.com/invite/jxrEqNQ3uc" target="_blank"  alt="discord" rel="noreferrer">
-              <CustomButton btntext="Join Early!" />
-            </a>
-          </div>
-          <div className="big_button">
-            <a href="https://discord.com/invite/jxrEqNQ3uc">
-              <button style="background: url('assets/time_description.png'); background-size:cover"></button>
+              <CustomButton btntext="Join Our Discord!" />
             </a>
           </div>
         </Grid>
