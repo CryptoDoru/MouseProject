@@ -162,7 +162,7 @@ const ComingYain = () => {
               </Grid>
             </Grid>*/}
           </Grid>
-          <a href="https://discord.com/invite/jxrEqNQ3uc" target="_blank"  alt="discord" rel="noreferrer">
+
           <Grid
             container
             item
@@ -173,6 +173,7 @@ const ComingYain = () => {
             xl={10}
             className="description_part"
           >
+          <a href="https://discord.com/invite/jxrEqNQ3uc" target="_blank"  alt="discord" rel="noreferrer">
             <Typography
               variant="subtitle1"
               color="primary"
@@ -181,8 +182,9 @@ const ComingYain = () => {
               Join early and start hyping!
 
             </Typography>
+            </a>
           </Grid>
-          </a>
+          
           {/* button here */}
           <div className="button_part">
             <a href="https://discord.com/invite/jxrEqNQ3uc" target="_blank"  alt="discord" rel="noreferrer">
