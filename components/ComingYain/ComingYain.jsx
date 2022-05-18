@@ -188,6 +188,11 @@ const ComingYain = () => {
               <CustomButton btntext="Join Early!" />
             </a>
           </div>
+          <div className="big_button">
+            <a href="https://discord.com/invite/jxrEqNQ3uc"
+              <button><img src="/assets/time_description.svg" alt="my image" onClick={this.myfunction} </></button>
+            </a>
+          </div>
         </Grid>
       </Container>
     </div>
