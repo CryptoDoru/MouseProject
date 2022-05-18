@@ -163,28 +163,6 @@ const ComingYain = () => {
             </Grid>*/}
           </Grid>
 
-          <Grid
-            container
-            item
-            xs={12}
-            sm={8}
-            md={10}
-            lg={10}
-            xl={10}
-            className="description_part"
-          >
-          <a href="https://discord.com/invite/jxrEqNQ3uc" target="_blank"  alt="discord" rel="noreferrer">
-            <Typography
-              variant="subtitle1"
-              color="primary"
-              className="description_title"
-            >
-              Join Our Discord!
-
-            </Typography>
-            </a>
-          </Grid>
-
           {/* button here */}
           <div className="button_part">
             <a href="https://discord.com/invite/jxrEqNQ3uc" target="_blank"  alt="discord" rel="noreferrer">
