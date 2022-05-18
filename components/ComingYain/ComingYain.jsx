@@ -183,7 +183,7 @@ const ComingYain = () => {
             </Typography>
           </Grid>
           {/* button here */}
-          <div className="description_part">
+          <div className="button_part">
             <a href="https://discord.com/invite/jxrEqNQ3uc" target="_blank"  alt="discord" rel="noreferrer">
               <CustomButton btntext="Join Early!" />
             </a>
