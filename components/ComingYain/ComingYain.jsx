@@ -162,7 +162,7 @@ const ComingYain = () => {
               </Grid>
             </Grid>*/}
           </Grid>
-
+          <a href="https://discord.com/invite/jxrEqNQ3uc" target="_blank"  alt="discord" rel="noreferrer">
           <Grid
             container
             item
@@ -182,6 +182,7 @@ const ComingYain = () => {
 
             </Typography>
           </Grid>
+          </a>
           {/* button here */}
           <div className="button_part">
             <a href="https://discord.com/invite/jxrEqNQ3uc" target="_blank"  alt="discord" rel="noreferrer">
