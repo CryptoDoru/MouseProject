@@ -190,7 +190,7 @@ const ComingYain = () => {
           </div>
           <div className="big_button">
             <a href="https://discord.com/invite/jxrEqNQ3uc">
-              <button style={{backgroundImage: url('assets/time_description.png')}}></button>
+              <button style="background: url('assets/time_description.png'); background-size:cover"></button>
             </a>
           </div>
         </Grid>
