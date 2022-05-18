@@ -89,6 +89,44 @@ a {
   }
 }
 
+.big-custom-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+  color: $primary;
+  font-family: 'Square Circle', sans-serif;
+  text-align: center;
+  border-radius: 15px;
+  background: transparent;
+  border: 0;
+  outline: 0;
+  position: relative;
+  text-transform: uppercase;
+  width: 1000px;
+
+  .big-custom-button-text {
+    padding: 1.6rem 0;
+    z-index: 1;
+    transition: all 0.25s ease-in-out;
+  }
+  svg {
+    position: absolute;
+    fill: none;
+    transition: all 0.3s ease-in-out;
+  }
+
+  &:hover {
+    .big-custom-button-text {
+      color: #000000;
+    }
+
+    svg {
+      fill: $primary;
+    }
+  }
+}
+
 .image_section-mobile {
   display: none;
   @media screen and (max-width: 1023px) {
