@@ -176,17 +176,16 @@ const ComingYain = () => {
             <Typography
               variant="subtitle1"
               color="primary"
-              className="button_part"
+              className="description_title"
             >
-              <a href="https://discord.com/invite/jxrEqNQ3uc" target="_blank"  alt="discord" rel="noreferrer">
-                <CustomButton btntext="Join Early" />
+              Join early and start hyping!
 
             </Typography>
           </Grid>
           {/* button here */}
           <div className="button_part">
             <a href="https://discord.com/invite/jxrEqNQ3uc" target="_blank"  alt="discord" rel="noreferrer">
-              <CustomButton btntext="Join Early" />
+              <CustomButton btntext="Join Early!" />
             </a>
           </div>
         </Grid>
