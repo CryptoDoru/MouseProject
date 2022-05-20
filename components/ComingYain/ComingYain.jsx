@@ -165,7 +165,7 @@ const ComingYain = () => {
 
           {/* button here */}
           <div className="button_part">
-            <a href="https://discord.com/invite/jxrEqNQ3uc" target="_blank"  alt="discord" rel="noreferrer">
+            <a href="https://discord.gg/cr97f94Ggs" target="_blank"  alt="discord" rel="noreferrer">
               <CustomButton btntext="Join Our Discord" />
             </a>
           </div>

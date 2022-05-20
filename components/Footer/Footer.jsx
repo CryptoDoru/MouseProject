@@ -25,7 +25,7 @@ const Footer = () => {
               PEOPLE EAGER TO ANSWER YOUR QUESTIONS.
             </Typography>
           </div>
-          <a href="https://discord.com/invite/jxrEqNQ3uc" target="_blank"  alt="discord" rel="noreferrer">
+          <a href="https://discord.gg/cr97f94Ggs" target="_blank"  alt="discord" rel="noreferrer">
             <div className="footer_buttom_wrapper">
 
               <Image

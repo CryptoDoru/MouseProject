@@ -104,7 +104,7 @@ const HeroArea = ({
                       }}
                     >
                       <a
-                        href="https://discord.com/invite/jxrEqNQ3uc"
+                        href="https://discord.gg/cr97f94Ggs"
                         target="_blank"
                         alt="discord"
                         rel="noreferrer"
@@ -131,7 +131,7 @@ const HeroArea = ({
                       }}
                     >
                       <a
-                        href="https://twitter.com/MTHnft"
+                        href="https://twitter.com/HoodRats_NFT"
                         target="_blank"
                         alt="twitter"
                         rel="noreferrer"
@@ -167,7 +167,7 @@ const HeroArea = ({
                 style={{ margin: '0', display: 'flex', alignItems: 'center' }}
               >
                 <a
-                  href="https://discord.com/invite/jxrEqNQ3uc"
+                  href="https://discord.gg/cr97f94Ggs"
                   target="_blank"
                   alt="discord"
                   rel="noreferrer"
@@ -190,7 +190,7 @@ const HeroArea = ({
                 style={{ margin: '0', display: 'flex', alignItems: 'center' }}
               >
                 <a
-                  href="https://twitter.com/MTHnft"
+                  href="https://twitter.com/HoodRats_NFT"
                   target="_blank"
                   alt="twitter"
                   rel="noreferrer"
