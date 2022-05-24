@@ -27,39 +27,32 @@ const Dreamin = () => {
               height={173}
             />
             <Divider sx={{ mb: 4 }} />
-            <div className="roadMap_step">
-              <Typography variant="body1" className="roadMap_subtitle intro-text">
-              </Typography>
-            </div>
+
             {/* step 1 here */}
-            <div className="roadMap_step">
-              <Typography variant="h5" className="roadMap_title">
-              </Typography>
-              <Typography variant="body1" className="roadMap_subtitle">
-              </Typography>
-            </div>
+
             {/* step 2 here */}
             <div className="roadMap_step">
               <Typography variant="h5" className="roadMap_title">
                 ROADMAP COMING SOON IN THE DISCORD
               </Typography>
-              <Typography variant="body1" className="roadMap_subtitle">
-              </Typography>
             </div>
+            <a
+              href="https://discord.gg/cr97f94Ggs"
+              target="_blank"
+              alt="discord"
+              rel="noreferrer"
+            >
+              <Image
+                src="/assets/discode.svg"
+                alt="discord"
+                width={64}
+                height={58}
+              />
+            </a>
             {/* step 3 here */}
-            <div className="roadMap_step">
-              <Typography variant="h5" className="roadMap_title">
-              </Typography>
-              <Typography variant="body1" className="roadMap_subtitle">
-              </Typography>
-            </div>
+
             {/* step 4 here */}
-            <div className="roadMap_step">
-              <Typography variant="h5" className="roadMap_title">
-              </Typography>
-              <Typography variant="body1" className="roadMap_subtitle">
-              </Typography>
-            </div>
+
 
             {/* <div className="subtitle_roadMap">
               <Typography variant="h5" className="subtitle_content">
