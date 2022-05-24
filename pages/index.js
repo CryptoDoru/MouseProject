@@ -22,16 +22,16 @@ export default function Home() {
   const crewSection = () => {
     crewDiv?.current?.scrollIntoView({ behavior: 'smooth' });
   };
-  const roadMapSection = () => {
-    roadMapDiv?.current?.scrollIntoView({ behavior: 'smooth' });
-  };
+//  const roadMapSection = () => {
+//    roadMapDiv?.current?.scrollIntoView({ behavior: 'smooth' });
+//  };
   const aboutSection = () => {
     aboutDiv?.current?.scrollIntoView({ behavior: 'smooth' });
   };
   return (
     <>
       <Head>
-        <title>Mouse Trap House NFT</title>
+        <title>Hood Rats NFT</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <header>
