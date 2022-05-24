@@ -27,12 +27,11 @@ const Dreamin = () => {
               height={173}
             />
             <Divider sx={{ mb: 4 }} />
-            <Image
-              src="/assets/roadMap_2.svg"
-              alt="roadmap"
-              width={60}
-              height={120}
-            />
+              <div className="button_part">
+                <a href="https://discord.gg/cr97f94Ggs" target="_blank"  alt="discord" rel="noreferrer">
+                  <CustomButton btntext="Join Our Discord" />
+                </a>
+              </div>
             <div className="roadMap_step">
               <Typography variant="body1" className="roadMap_subtitle intro-text">
               </Typography>
@@ -49,11 +48,6 @@ const Dreamin = () => {
               <Typography variant="h5" className="roadMap_title">
                 ROADMAP COMING SOON IN THE DISCORD
               </Typography>
-              <div className="button_part">
-                <a href="https://discord.gg/cr97f94Ggs" target="_blank"  alt="discord" rel="noreferrer">
-                  <CustomButton btntext="Join Our Discord" />
-                </a>
-              </div>
               <Typography variant="body1" className="roadMap_subtitle">
               </Typography>
             </div>
