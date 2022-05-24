@@ -65,7 +65,17 @@ const Cheesiness = () => {
                 TECHIES - Marketing mouse
               </Typography>
             </Grid>
+            <Grid item md={4} lg={4} sm={12} xs={12}>
+              <Image
+                src="/assets/pfp-transparent.png"
+                alt="mouse"
+                width={400}
+                height={400}
+              />
+              <Typography variant="body1" className="description">
 
+              </Typography>
+            </Grid>
             <Grid item md={4} lg={4} sm={12} xs={12}>
               <Image
                 src="/assets/pfp-03.png"
