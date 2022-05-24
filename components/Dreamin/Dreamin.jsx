@@ -27,11 +27,6 @@ const Dreamin = () => {
               height={173}
             />
             <Divider sx={{ mb: 4 }} />
-              <div className="button_part">
-                <a href="https://discord.gg/cr97f94Ggs" target="_blank"  alt="discord" rel="noreferrer">
-                  <CustomButton btntext="Join Our Discord" />
-                </a>
-              </div>
             <div className="roadMap_step">
               <Typography variant="body1" className="roadMap_subtitle intro-text">
               </Typography>
@@ -72,6 +67,11 @@ const Dreamin = () => {
               </Typography>
             </div> */}
           </Grid>
+          <div className="button_part">
+            <a href="https://discord.gg/cr97f94Ggs" target="_blank"  alt="discord" rel="noreferrer">
+              <CustomButton btntext="Join Our Discord" />
+            </a>
+          </div>
         </Grid>
       </Container>
     </div>
