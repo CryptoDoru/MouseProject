@@ -22,14 +22,13 @@ const Cheesiness = () => {
           <Grid container spacing={3} item md={10} lg={10} sm={12} xs={12} >
             <Grid item md={4} lg={4} sm={12} xs={12}>
               <Image
-                src="/assets/pfp-01.png"
+                src="/assets/Jerri-Transparent2.png"
                 alt="mouse"
                 width={400}
                 height={400}
               />
               <Typography variant="body1" className="description">
-                CHEESUS - so damn nice you can easily trick him in your black
-                van
+                Jerri - Project Manager and Developer
               </Typography>
             </Grid>
             <Grid item md={4} lg={4} sm={12} xs={12} className="hidden-mobile">
