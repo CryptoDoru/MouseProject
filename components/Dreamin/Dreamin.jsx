@@ -32,13 +32,8 @@ const Dreamin = () => {
               width={60}
               height={120}
             />
-          /*  <div className="roadMap_step">
+            <div className="roadMap_step">
               <Typography variant="body1" className="roadMap_subtitle intro-text">
-                Mouse Trap House has come a long way to be here. We have put our
-                hearts and minds into this and worked hard to make this
-                collection squeakin awesome. It was not an easy journey. To
-                whomever is reading this and wants to succeed - dont give up, we
-                support you!
               </Typography>
             </div>
             {/* step 1 here */}
@@ -73,7 +68,6 @@ const Dreamin = () => {
               <Typography variant="h5" className="roadMap_title">
               </Typography>
               <Typography variant="body1" className="roadMap_subtitle">
-                - Expanding our colony to other blockchains
               </Typography>
             </div>
 
