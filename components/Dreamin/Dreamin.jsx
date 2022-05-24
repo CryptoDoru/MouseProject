@@ -32,7 +32,7 @@ const Dreamin = () => {
               width={60}
               height={120}
             />
-            <div className="roadMap_step">
+          /*  <div className="roadMap_step">
               <Typography variant="body1" className="roadMap_subtitle intro-text">
                 Mouse Trap House has come a long way to be here. We have put our
                 hearts and minds into this and worked hard to make this
@@ -42,7 +42,7 @@ const Dreamin = () => {
               </Typography>
             </div>
             {/* step 1 here */}
-            <div className="roadMap_step">
+          /*  <div className="roadMap_step">
               <Typography variant="h5" className="roadMap_title">
                 PHASE 1
               </Typography>
@@ -60,9 +60,15 @@ const Dreamin = () => {
             {/* step 2 here */}
             <div className="roadMap_step">
               <Typography variant="h5" className="roadMap_title">
-                PHASE 2
+                ROADMAP COMING SOON IN THE DISCORD
               </Typography>
-              <Typography variant="body1" className="roadMap_subtitle">
+              <div className="button_part">
+                <a href="https://discord.gg/cr97f94Ggs" target="_blank"  alt="discord" rel="noreferrer">
+                  <CustomButton btntext="Join Our Discord" />
+                </a>
+              </div>
+            </div>
+            /*  <Typography variant="body1" className="roadMap_subtitle">
                 - Tokenomics set up with $CHDR on raydium <br/>- Airdrop $CHDR for
                 Mouse holders<br/>- We are discussing and exploring the
                 possibilities on staking your NFTs to earn passive income <br/> - Sweep
@@ -70,7 +76,7 @@ const Dreamin = () => {
               </Typography>
             </div>
             {/* step 3 here */}
-            <div className="roadMap_step">
+          /*  <div className="roadMap_step">
               <Typography variant="h5" className="roadMap_title">
                 PHASE 3
               </Typography>
@@ -79,7 +85,7 @@ const Dreamin = () => {
               </Typography>
             </div>
             {/* step 4 here */}
-            <div className="roadMap_step">
+          /*  <div className="roadMap_step">
               <Typography variant="h5" className="roadMap_title">
                 PHASE 4
               </Typography>

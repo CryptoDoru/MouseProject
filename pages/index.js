@@ -22,9 +22,9 @@ export default function Home() {
   const crewSection = () => {
     crewDiv?.current?.scrollIntoView({ behavior: 'smooth' });
   };
-//  const roadMapSection = () => {
-//    roadMapDiv?.current?.scrollIntoView({ behavior: 'smooth' });
-//  };
+  const roadMapSection = () => {
+    roadMapDiv?.current?.scrollIntoView({ behavior: 'smooth' });
+  };
   const aboutSection = () => {
     aboutDiv?.current?.scrollIntoView({ behavior: 'smooth' });
   };
