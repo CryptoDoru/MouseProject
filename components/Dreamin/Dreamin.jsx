@@ -36,6 +36,11 @@ const Dreamin = () => {
                 ROADMAP COMING SOON IN THE DISCORD
               </Typography>
             </div>
+            <div className="roadMap_step">
+              <Typography variant="h5" className="roadMap_title">
+            
+              </Typography>
+            </div>
             <a
               href="https://discord.gg/cr97f94Ggs"
               target="_blank"
@@ -60,11 +65,6 @@ const Dreamin = () => {
               </Typography>
             </div> */}
           </Grid>
-          <div className="button_part">
-            <a href="https://discord.gg/cr97f94Ggs" target="_blank"  alt="discord" rel="noreferrer">
-              <CustomButton btntext="Join Our Discord" />
-            </a>
-          </div>
         </Grid>
       </Container>
     </div>
