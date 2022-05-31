@@ -20,9 +20,8 @@ const Footer = () => {
               color="initial"
               className="footer_descrition"
             >
-              FEEL FREE TO CONTACT US THROUGH CHAT IN DISCORD OR TWITTER. JOIN
-              US IN THE MOUSE TRAP HOUSE, WE ARE HELLA COOL AND DOWN TO EARTH
-              PEOPLE EAGER TO ANSWER YOUR QUESTIONS.
+              JOIN OUR DISCORD TO GET THE MOST RECENT UPDATES AND SNEAK PEAKS,
+              ASK QUESTIONS, OR JUST COME HANGOUT IN THE TRAP HOUSE.
             </Typography>
           </div>
           <a href="https://discord.gg/cr97f94Ggs" target="_blank"  alt="discord" rel="noreferrer">
