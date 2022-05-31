@@ -7,7 +7,7 @@ const Cheesiness = () => {
     <Container>
       <div className="cheesiness_wrapper">
         <Typography variant="h6" color="primary" className="cheesiness_title">
-          THE CREW BEHIND THE CHEESINESS
+          THE CREW BEHIND THE TRAP HOUSE
         </Typography>
         <Grid
           container
