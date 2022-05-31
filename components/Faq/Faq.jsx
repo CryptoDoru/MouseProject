@@ -42,7 +42,7 @@ const Faq = () => {
                 className="faq_description"
                 color="initial"
               >
-                Mouse trap house will explode on the Solana platform in December.
+                Hood Rats will join our frens on the Solana Blockchain in Quarter 3 of 2022. Our mint date will be announced in discord.
               </Typography>
             </div>
             <div className="faq_content_wrapper">
@@ -51,15 +51,14 @@ const Faq = () => {
                 className="faq_title"
                 color="initial"
               >
-                What is the price of each cheesy character?
+                What is the price of each Hood Rat?
               </Typography>
               <Typography
                 variant="subtitle1"
                 className="faq_description"
                 color="initial"
               >
-                The price to buy (or mint) one unique mouse is TBA SOL at time of
-                sale.
+                The price to mint one unique Hood Rat will be announced in our discord close to mint time.
               </Typography>
             </div>
             <div className="faq_content_wrapper">
@@ -68,17 +67,16 @@ const Faq = () => {
                 className="faq_title"
                 color="initial"
               >
-                How did you create 5,555 mouse characters?
+                How did you create 5,555 Hood Rats?
               </Typography>
               <Typography
                 variant="subtitle1"
                 className="faq_description"
                 color="initial"
               >
-                Each trait was handdrawn with passion by our artist.These traits
-                have been randomised with an algorithm created by our dev to
-                create the best 5,555 characters from milions of possible
-                combinations.
+                Each trait was handdrawn with passion by our artist Artack. Our homies
+                have been generated with an algorithm created by our dev to
+                create the most unique 5,555 Hood Rats.
               </Typography>
             </div>
 
