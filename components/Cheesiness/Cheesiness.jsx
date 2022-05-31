@@ -41,7 +41,7 @@ const Cheesiness = () => {
             </Grid>
             <Grid item md={4} lg={4} sm={12} xs={12}>
               <Image
-                src="/assets/pfp-05.png"
+                src="/assets/transparent2.png"
                 alt="mouse"
                 width={400}
                 height={400}
@@ -63,6 +63,14 @@ const Cheesiness = () => {
               <Typography variant="body1" className="description">
                 Tuna
               </Typography>
+            </Grid>
+            <Grid item md={4} lg={4} sm={12} xs={12} className="hidden-mobile">
+              <Image
+                src="/assets/img4.svg"
+                alt="divider"
+                width={400}
+                height={400}
+              />
             </Grid>
             <Grid item md={4} lg={4} sm={12} xs={12}>
               <Image
