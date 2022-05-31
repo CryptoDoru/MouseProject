@@ -41,7 +41,7 @@ const Cheesiness = () => {
             </Grid>
             <Grid item md={4} lg={4} sm={12} xs={12}>
               <Image
-                src="/assets/transparent2.png"
+                src="/assets/Lex-Transparent.png"
                 alt="mouse"
                 width={400}
                 height={400}
